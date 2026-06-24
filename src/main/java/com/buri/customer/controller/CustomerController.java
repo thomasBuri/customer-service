@@ -17,7 +17,7 @@ public class CustomerController {
 
     @PostMapping("/register-customer")
     public boolean registerCustomer(@RequestBody Customer customer){
-        log.info("Customer successfully registered with these data: {}", customer);
+        log.info("Customer successfully registered with these data : {}", customer);
         return customerService.registerCustomer(customer);
     }
 

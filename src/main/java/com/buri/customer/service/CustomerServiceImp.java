@@ -15,7 +15,7 @@ public class CustomerServiceImp implements CustomerService {
     @Override
     public List<Customer> getCustomreList() {
         return List.of(new Customer(1L, "Thomas","Buri", "java.thomasburi@gmail.com", "S1234567"),
-                new Customer(1L, "Julia","Buri", "juliaburi@gmail.com", "S2345678"));
+                new Customer(1L, "Julia","Buri", "juliaburi@gmail.com", "S2345677"));
     }
 
     @Override
